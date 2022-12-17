@@ -1,0 +1,20 @@
+body {
+    background-color: burlywood;
+}
+
+
+
+header { 
+    display: flex;
+
+}
+
+#subscribe {
+    text-decoration: none;
+    border: lime solid 2px;
+    border-radius: 3px;
+}
+
+#donate {
+    text-decoration: none;
+}
