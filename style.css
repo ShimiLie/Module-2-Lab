@@ -1,20 +1,72 @@
 body {
     background-color: burlywood;
+    margin: 0;
 }
 
 
 
 header { 
     display: flex;
-
+    border-bottom: black solid 3px;
+    margin-left: 0;
+    padding: 5px;
+    
 }
 
 #subscribe {
     text-decoration: none;
-    border: lime solid 2px;
+    border: white solid 2px;
     border-radius: 3px;
 }
 
 #donate {
     text-decoration: none;
+    border: white solid 2px;
+    border-radius: 3px;
+    margin: 5px;
+
+}
+
+img {
+    width: 50px;
+    height: 50px;
+
+}
+
+#click {
+    margin-left: auto;
+}
+
+nav {
+
+    border: black 3px solid;
+    margin:0px;
+    
+    
+    display: inline-block;
+}
+
+main { 
+    border: black 3px solid;
+    
+    
+    width: 75%;
+
+}
+
+aside {
+    
+    border: black 1px solid;
+
+}
+
+#middle {
+    display:flex;
+    display: inline-block;
+    flex-direction: column;
+    margin: 0px;
+}
+
+footer {
+    border: black 1px solid;
 }
