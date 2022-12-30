@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     background-color: burlywood;
     margin: 0;
@@ -17,6 +23,7 @@ header {
     text-decoration: none;
     border: white solid 2px;
     border-radius: 3px;
+    align-self: flex-start;
 }
 
 #donate {
@@ -37,36 +44,51 @@ img {
     margin-left: auto;
 }
 
-nav {
 
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+nav {
     border: black 3px solid;
     margin:0px;
-    
-    
     display: inline-block;
+    height: 500px;
+    width: min-content;
+}
+
+nav > h2, p {
+    padding: 0px;
+}
+
+ul {
+    padding:0px;
 }
 
 main { 
     border: black 3px solid;
-    
-    
-    width: 75%;
+    flex-grow: 1;
 
 }
 
-aside {
-    
+aside { 
     border: black 1px solid;
+    flex-grow: 1;
 
 }
 
-#middle {
-    display:flex;
-    display: inline-block;
-    flex-direction: column;
-    margin: 0px;
-}
 
 footer {
     border: black 1px solid;
+}
+
+#SLogo {
+    display: flex;
+}
+
+#InstaLogo {
+    padding: 5px;
 }
